@@ -17,3 +17,7 @@ app.py:アプリケーション本体。これを実行すればプログラム�
 警告ダイアログは表示されないのでうっかり上書きしないようにご注意ください。
 
 また、保存先ディレクトリは予め準備しておく必要があります。
+
+# Lisence
+
+This project is licensed under the MIT License, see the LICENSE.txt file for details
