@@ -18,6 +18,6 @@ app.py:アプリケーション本体。これを実行すればプログラム�
 
 また、保存先ディレクトリは予め準備しておく必要があります。
 
-# Lisence
+# ライセンス
 
 This project is licensed under the MIT License, see the LICENSE.txt file for details
