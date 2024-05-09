@@ -208,7 +208,7 @@ class Application(tk.Frame):
                 # 確認用
                 print(timg.shape)
                 if not(os.path.isdir(self.filepath_textarea.get())):
-                    messagebox.showerror("読み込みエラー", "指定したディレクトリが見つかりません")
+                    os.makedirs(self.filepath_textarea.get())
                     break
 
                 save = cv2.imwrite(f'{self.filepath_textarea.get()}/{self.filename_textarea.get()}{num}.jpg', timg)
